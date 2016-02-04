@@ -1,5 +1,5 @@
 {
-	"name": "unisharp/laravel-ckeditor",
+	"name": "gildniy/laravel-ckeditor",
 	"description": "JavaScript WYSIWYG web text editor (for laravel).",
 	"type": "library",
 	"keywords": [ "ckeditor", "fckeditor", "editor", "wysiwyg", "html", "richtext", "text", "javascript", "laravel"],
@@ -13,6 +13,10 @@
 		{
 			"name":  "UniSharp Ltd. (Composer Package Maintainer)",
 			"homepage": "http://www.unisharp.com"
+		},
+		{
+			"name":  "Gildas Niyigena",
+			"homepage": "http://www.1twi.ga"
 		}
 	],
 	"support": {
@@ -23,11 +27,11 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Unisharp\\Ckeditor\\": "./"
+			"Gildniy\\Ckeditor\\": "./"
 		}
 	},
 	"require": {
-		"illuminate/support": "~5.0.17|5.1.*"
+		"illuminate/support": "~5.0.17|5.*"
 	},
 	"minimum-stability": "dev"
 }
